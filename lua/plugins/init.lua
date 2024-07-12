@@ -44,9 +44,15 @@ return {
         "css-lsp",
         "prettier",
         "eslint-lsp",
-        "gopls",
         "js-debug-adapter",
         "typescript-language-server",
+
+        -- c/cpp stuff
+        "clangd",
+        "clang-format",
+
+        -- python
+        "pyre", -- added python language server here
       },
     },
   },
@@ -62,7 +68,12 @@ return {
         "css",
         "typescript",
         "javascript",
-        "go",
+        "tsx",
+        "c",
+        "cpp",
+        "markdown",
+        "markdown_inline",
+        "python",
       },
     },
   },
